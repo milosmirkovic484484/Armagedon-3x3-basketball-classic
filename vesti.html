@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en"><!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Fullscreen Background Image Slideshow with CSS3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
+        <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body >
+      
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+
+        <div class="toggle-btn">
+            <span class="one"></span>
+            <span class="two"></span>
+       </div>
+      
+       <div class="menu">
+            <div class="data">
+                 <ul>
+                      <li style="color: white;">Armagedon<strong style="color: red;">S</strong><strong style="color: blue;">R</strong><strong style="color: white;" >B</strong></li>
+                      <li><a href="index.html">-Početna</a></li>
+                      <li><a href="vesti.html">-Vesti</a></li>
+                      <li><a href="igraci.html">-Igrači</a></li>
+                      <li><a href="#">-Sponzori</a></li>
+                      <li><a href="#">-Kontakt</a></li>
+                      <li style="padding-left: 65px;"><a href="https://www.facebook.com/permalink.php?id=295550507824480&story_fbid=340853896627474">
+                          <img src="images/facebook.png">
+                      </a></li>
+                     
+                     
+                      
+                    
+                 </ul>
+            </div>
+       </div>
+
+
+
+
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12">
+                    <h1 class="naslov">Vesti</h1>
+               </div>
+          </div>
+     </div>
+     
+     
+     
+     <div class="container">
+          <div class="col-sm-6 col-md-8 col-lg-8">
+               <div class="row">
+                    <hr>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <div class="panel panel-default">
+                              <div class="panel-body  box-border">
+                                   <img src="images/vesti/cover9.jpg  " alt="Armagedon 3x3 Urban basketball challenger" class="img-thumbnail img-responsive">
+                                   <p class="text-muted">Autor:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Igror | <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 27, 2019</p>
+                                   <h3>Armageddon najbolji na Urban basketball challenger</h3>
+                                   <p>Ovog vikenda održan je i <em>Basketball Urban challenger</em>...</p>
+                                   <a href="vesti-1-strana.html" class="btn btn-primary">Više o tome</a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <div class="panel panel-default">
+                              <article class="panel-body  box-border">
+                                   <img src="images/vesti/cover1.jpg" alt="" class="img-thumbnail img-responsive">
+                                   <p class="text-muted">Autor:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Igror | <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 27, 2019</p>
+                                   <h3>Niš 3×3: Poznati polufinalisti</h3>
+                                   <p>Polufinalisti turnira RODA 3×3 prvenstva u Nišu “Ivan Ica Jovanović” su ekipe Kragujevac i Autokuća Sekulić, odnosno Armagedon i Novi Beograd.</p>
+                                   <a href="vesti-2-strana.html" class="btn btn-primary">Više o tome</a>
+                              </article>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <div class="panel panel-default">
+                              <article class="panel-body  box-border">
+                                   <img src="images/vesti/3.jpg" alt="" class="img-thumbnail img-responsive">
+                                   <p class="text-muted">Autor:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Igror | <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 15, 2019</p>
+                                   <h3>Armagedon 3x3 do finala</h3>
+                                   <p> Drugo mesto u Satu Mare - u.... Poraz od Olimpa....</p>
+                                   <a href="vesti-3-strana.html" class="btn btn-primary">Više o tome</a>
+                              </article>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <div class="panel panel-default">
+                              <article class="panel-body  box-border">
+                                   <img src="images/vesti/tabela.jpg" alt="" class="img-thumbnail img-responsive">
+                                   <p class="text-muted">Autor:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Igror | <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 6, 2019</p>
+                                   <h3>Serbia lista</h3>
+                                   <p>3x3 Serbia lista posle 8 odigranih turnira...</p>
+                                   <a href="vesti-4-strana.html" class="btn btn-primary">Više o tome</a>
+                              </article>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <div class="panel panel-default  box-border">
+                              <article class="panel-body " id="project1" >
+                                   <img src="images/vesti/cover1.jpg" alt="" class="img-thumbnail img-responsive">
+                                   <p class="text-muted">Autor:  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Igror | <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 8, 2019</p>
+                                   <h3>Nove titule za Olimp i Novi Beograd, Ralja i Zemun bez Lipika</h3>
+                                   <p>Pored turnira u Leskovcu i Nišu u okviru RODA 3×3..</p>
+                                   <a href="vesti-5-strana.html" class="btn btn-primary">Više o tome</a>
+                              </article>
+                         </div>
+                    </div>
+               </div>
+               <br>
+               <br>
+               <hr>
+              
+     
+          </div>
+     
+          <div class="col-sm-6 col-md-4 col-lg-4">
+               <div class="panel panel-default  box-border">
+                    <div class="panel-body" >
+     
+                        
+                    
+     
+                         <h4 class="text-center face-naslov">fb-page
+
+                         </h4>
+                         <hr class="fb-linija">
+                        
+                         <div class="fb-page" class="text-center" data-href="https://www.facebook.com/pg/armageddon.sp/photos/?ref=page_internal" data-tabs="timeline" data-width="240" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pg/armageddon.sp/photos/?ref=page_internal" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pg/armageddon.sp/photos/?ref=page_internal">3x3 Armageddon Smederevska Palanka</a></blockquote></div>
+                         <br>
+                         <br>
+                         <br>
+                         <h5 class="text-center sponzori-right">Prijatelji kluba</h5>
+                         <p class="zahvalnica">Zahvaljujemo se svim sponzorima </p>
+     
+    
+                         <div class="row ">
+                              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                   <img src="images/superior.jpg" alt="" class="img-thumbnail img-responsive">
+                              </div>
+                              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red" >
+                                   <a href="https://www.borovnica.co.rs/?fbclid=IwAR2kRDhNteH5wqH1-RZBd4HPengjZ3QZaTaFR1IzdwqUwRu_XNX_BkNH4KM"> <h5 >www.borovnica.co.rs</h5></a>
+                                
+                                   <p class="text-muted"><span ></span> Superior</p>
+                              </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                                   <img src="images/armat1.jpg" alt="" class="img-thumbnail img-responsive">
+                              </div>
+                              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                        <a href="http://www.armatfergradnja.rs/index.php "> <h5 >www.armatfergradnja.rs</h5></a>
+                                
+                                        <p class="text-muted"><span ></span> Armatfer</p>
+                              </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                   <img src="images/cremoso latte.jpg" alt="" class="img-thumbnail img-responsive">
+                              </div>
+                              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                        <a href="http://www.scb.rs/?fbclid=IwAR2dt3TFlMsZyKqIU_L1Gx_auhGHGzz1ug6D6GtmSpsgDMwNIWY77O1jXig "> <h5 >www.scb.rs</h5></a>
+                                
+                                        <p class="text-muted"><span ></span> Cremoso Latte</p>
+                              </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                   <img src="images/domino market.jpg" alt="" class="img-thumbnail img-responsive">
+                              </div>
+                              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                        <a href="https://domino-market.rs/ "> <h5 >www.dominomarket.rs</h5></a>
+                                
+                                        <p class="text-muted"><span ></span> Domino market</p>
+                              </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                   <img src="images/natural.jpg" alt="" class="img-thumbnail img-responsive">
+                              </div>
+                              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                        <a href="https://www.herba-ishrana.com/?gclid=Cj0KCQjwov3nBRDFARIsANgsdoEhCcWNAvEZjNHzi0h2G1hXzMFlwZC7R7qOZpKfqlK3fB_7Po7quSoaAu2aEALw_wcB "> <h5 >www.dominomarket.rs</h5></a>
+                                
+                                        <p class="text-muted"><span ></span> Herbalife nutrition</p>
+                              </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <img src="images/logo.png" alt="" class="img-thumbnail img-responsive">
+                                   </div>
+                                   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                             <a href="https://www.facebook.com/amsterdam.caffebar "> <h5 >Fb page(Amsterdam CaffeBar)<h5></a>
+                                     
+                                             <p class="text-muted"><span ></span> Amsterdam CaffeBar(Smed.Palanka)</p>
+                                   </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                             <img src="images/cafe.jpg" alt="" class="img-thumbnail img-responsive">
+                                        </div>
+                                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 red">
+                                                  <a href="https://www.herba-ishrana.com/?gclid=Cj0KCQjwov3nBRDFARIsANgsdoEhCcWNAvEZjNHzi0h2G1hXzMFlwZC7R7qOZpKfqlK3fB_7Po7quSoaAu2aEALw_wcB "> <h5 ></h5></a>
+                                          
+                                                  <p class="text-muted"><span ></span> CAFFEN espresso Aroma di Napoli(Velika Plana)</p>
+                                        </div>
+                                   </div>
+                        
+                         
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+     <footer class="footer">
+               <div class="container">
+                   <div class="row">
+                   <div class="col-sm-3">
+                       <h4 class="title"> Društvene mreže</h4>
+                       
+                       <ul class="social-icon">
+                              <li ><a href="https://www.facebook.com/permalink.php?id=295550507824480&story_fbid=340853896627474">
+                                        <img src="images/facebook.png">
+                                    </a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3">
+                       <h4 class="title"> - Meni</h4>
+                       <span class="acount-icon">          
+                       <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Početna</a>
+                       <a href="vesti.html"><i class="fa fa-bullhorn" aria-hidden="true"></i> Vesti</a>
+                       <a href="igraci.html"><i class="fa fa-users" aria-hidden="true"></i> Igrači</a>
+                      
+                       <a href="kontakt.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Kontakt</a>          
+                       </span>
+                   </div>
+                   <div class="col-sm-3">
+                       <h4 class="title">Sponzori </h4>
+                       <div class="category">
+                        
+                           <a href="https://www.borovnica.co.rs/?fbclid=IwAR2kRDhNteH5wqH1-RZBd4HPengjZ3QZaTaFR1IzdwqUwRu_XNX_BkNH4KM">Superior</a>
+                           <a href="https://www.facebook.com/amsterdam.caffebar?epa=SEARCH_BOX">Amsterdam CaffeBar </a>
+                           <a href="#"> CAFFEN espresso Aroma di Napoli </a>
+                           <a href="https://domino-market.rs/ ">Domino market</a>
+                           <a href="http://www.armatfergradnja.rs/index.php">Armatfer</a>
+                           <a href="https://www.herba-ishrana.com/?gclid=Cj0KCQjwi43oBRDBARIsAExSRQGLzyCFHjpWkOd5maXID74Jje7zvTRA8jIHDQF84ZYn0c8Sm0hlinsaAtc0EALw_wcB"> Herbalife nutrition</a>
+                           <a href="http://www.scb.rs/?fbclid=IwAR2dt3TFlMsZyKqIU_L1Gx_auhGHGzz1ug6D6GtmSpsgDMwNIWY77O1jXig">  Cremoso Latte</a>
+                                   
+                       </div>
+                   </div>
+                   <div class="col-sm-3">
+                       <h4 class="title">O nama</h4>
+                       <p><em>Armagedon </em> 3x3 predstavlja mehanizam virtuoza pod košem i čoveka koji se upustio do te mere, sa željom da vidi sve to u samom vrhu svetskog basketa.
+                         </p>
+                      
+                       </div>
+                   </div>
+                   <hr>
+                   <div class="row text-center"><a href="#" style="color: #fff;">Copyright © 2019</a></div>
+               </div>	
+           </footer>
+
+     <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v3.3"></script>
+
+       <script type="text/javascript">
+     
+        var t1 = new TimelineMax({paused: true});
+        
+        t1.to(".one", 0.8, {
+             y: 6,
+             rotation: 45,
+             ease: Expo.easeInOut
+        });
+        t1.to(".two", 0.8, {
+             y: -6,
+             rotation: -45,
+             ease: Expo.easeInOut,
+             delay: -0.8
+        });
+        
+        t1.to(".menu", 2, {
+             top: "0%",
+             ease: Expo.easeInOut,
+             delay: -2
+        });
+        
+        t1.staggerFrom(".menu ul li", 2, {x: -200, opacity: 0, ease:Expo.easeOut}, 0.3);
+        
+        t1.reverse();
+        $(document).on("click", ".toggle-btn", function() {
+             t1.reversed(!t1.reversed());
+        });
+        $(document).on("click", "a", function() {
+             t1.reversed(!t1.reversed());
+        });
+   
+        TweenMax.from(".runner", 2, {
+               delay: 0.5,
+               x: -80,
+               opacity: 0,
+               ease: Expo.easeInOut
+               });
+   
+               TweenMax.from(".runner1", 2, {
+               delay: 0.5,
+               x: -80,
+               opacity: 0,
+               ease: Expo.easeInOut
+               });
+   
+   
+               TweenMax.from(".cart", 2, {
+               delay: 1.7,
+               y: 20,
+               opacity: 0,
+               ease: Expo.easeInOut
+               });
+   
+               TweenMax.from(".box-1", 4, {
+               delay: 1,
+               rotation: 200,
+               transformOrigin: "50% 50%",
+               opacity: 0,
+               x: -180,
+               ease: Expo.easeInOut
+               });
+   
+               var btn = $('#button');
+
+               
+
+               
+        </script>
+       <script>
+               // When the user scrolls down 20px from the top of the document, show the button
+               window.onscroll = function() {scrollFunction()};
+               
+               function scrollFunction() {
+                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                   document.getElementById("myBtn").style.display = "block";
+                 } else {
+                   document.getElementById("myBtn").style.display = "none";
+                 }
+               }
+               
+               // When the user clicks on the button, scroll to the top of the document
+               function topFunction() {
+                 document.body.scrollTop = 0;
+                 document.documentElement.scrollTop = 0;
+               }
+               </script>
+            
+    </body>
+</html>
